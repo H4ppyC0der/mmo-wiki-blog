@@ -15,13 +15,13 @@ const BlogCard = (props: Props) => {
         <div className="h-fit w-fit">
           <Image
             src={props.imgSrc}
-            className="h-fit w-full md:w-[636px] lg:w-[636px] xl:w-[636px] object-cover object-center bg-white shadow-[0_-15px_35px_15px_rgba(255,255,255,0.1)]"
+            className="h-fit md:h-[467px] lg:h-[467px] xl:h-[467px] w-full md:w-[8566px] lg:w-[856px] xl:w-[856px] object-cover object-center bg-white shadow-[0_-15px_35px_15px_rgba(255,255,255,0.1)]"
             width={2000}
             height={2000}
             alt="Blog Featured Image"
           />
         </div>
-        <div className="absolute bg-[#161829] -mb-[70%] md:mb-0 lg:mb-0 xl:mb-0 left-0 bottom-0 w-3/4 h-fit">
+        <div className="absolute bg-[#161829] -mb-[70%] md:mb-0 lg:mb-0 xl:mb-0 left-0 bottom-0 w-5/6 h-1/2">
           <div className="p-6 flex flex-col justify-between">
             <div className="flex gap-3">
               <h5 className="font-bold text-xl text-white leading-7">News</h5>
