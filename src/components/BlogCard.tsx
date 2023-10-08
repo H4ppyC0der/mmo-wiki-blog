@@ -4,7 +4,7 @@ import Link from "next/link";
 import CallMadeIcon from "@mui/icons-material/CallMade";
 
 export interface Props {
-  imgSrc: any;
+  imgSrc: string;
   blogTitle: string;
 }
 
@@ -29,13 +29,27 @@ const BlogCard = (props: Props) => {
                 25 January,2023
               </span>
             </div>
-            <Link href="/blog">
+            <Link
+              href={{
+                pathname: "/blog",
+                query: {
+                  blogTitle: props.blogTitle,
+                  featuredImg: props.imgSrc,
+                }, // the data
+              }}
+            >
               <h3 className="w-full text-3xl font-bold mt-[12px] text-white">
                 {props.blogTitle}
               </h3>
             </Link>
             <Link
-              href="/blog"
+              href={{
+                pathname: "/blog",
+                query: {
+                  blogTitle: props.blogTitle,
+                  featuredImg: props.imgSrc,
+                }, // the data
+              }}
               className="mt-8 text-[#DF7B00] bg-[#303141] rounded-full w-10 h-10 flex flex-col justify-center items-center hover:bg-[#DF7B00] hover:text-[#161829]"
             >
               <CallMadeIcon />
