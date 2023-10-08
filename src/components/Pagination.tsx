@@ -7,7 +7,7 @@ const Pagination = () => {
   return (
     <nav
       aria-label="Page navigation"
-      className="w-fit mt-10 flex flex-row justify-start px-[5%]"
+      className="w-screen mt-10 flex flex-row justify-center px-[5%]"
     >
       <ul className="flex flex-row gap-5 md:gap-10 lg:gap-10 xl:gap-10 text-white">
         <li className="">
