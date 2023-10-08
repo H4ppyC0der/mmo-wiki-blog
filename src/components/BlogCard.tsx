@@ -21,7 +21,7 @@ const BlogCard = (props: Props) => {
             alt="Blog Featured Image"
           />
         </div>
-        <div className="absolute bg-[#161829] -mb-[70%] md:mb-0 lg:mb-0 xl:mb-0 left-0 bottom-0 w-3/4 h-1/2">
+        <div className="absolute bg-[#161829] -mb-[20%] md:mb-0 lg:mb-0 xl:mb-0 left-0 bottom-0 w-3/4 h-1/2">
           <div className="p-6 flex flex-col justify-between">
             <div className="flex gap-3">
               <h5 className="font-bold text-xl text-white leading-7">News</h5>
