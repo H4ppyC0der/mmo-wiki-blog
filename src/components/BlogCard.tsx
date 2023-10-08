@@ -16,7 +16,7 @@ const BlogCard = () => {
             alt="Image"
           />
         </div>
-        <div className="absolute bg-[#161829] -mb-[80%] md:-mb-0 lg:-mb-0 xl:-mb-0 left-0 bottom-0 w-full md:w-3/4 lg:w-3/4 xl:w-3/4 md:h-1/2 lg:h-1/2 xl:h-1/2">
+        <div className="absolute bg-[#161829] -mb-[70%] md:-mb-0 lg:-mb-0 xl:-mb-0 left-0 bottom-0 w-3/4 md:h-1/2 lg:h-1/2 xl:h-1/2">
           <div className="p-6 flex flex-col justify-between">
             <div className="flex gap-3">
               <h5 className="font-bold text-xl text-white leading-7">News</h5>
