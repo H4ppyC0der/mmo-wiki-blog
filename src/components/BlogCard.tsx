@@ -25,7 +25,7 @@ const BlogCard = () => {
               </span>
             </div>
             <Link href="/blog">
-              <h3 className="text-3xl font-bold mt-[12px] text-white">
+              <h3 className="w-full text-3xl font-bold mt-[12px] text-white">
                 Creating Memorable Characters In Video Games
               </h3>
             </Link>
