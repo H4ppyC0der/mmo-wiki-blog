@@ -15,7 +15,7 @@ const BlogCard = (props: Props) => {
         <div className="h-fit w-fit">
           <Image
             src={props.imgSrc}
-            className="h-fit md:h-[467px] lg:h-[467px] xl:h-[467px] w-full md:w-[8566px] lg:w-[856px] xl:w-[856px] object-cover object-center bg-white shadow-[0_-15px_35px_15px_rgba(255,255,255,0.1)]"
+            className="h-fit md:h-[467px] lg:h-[467px] xl:h-[467px] w-full md:w-[856px] lg:w-[856px] xl:w-[856px] object-cover object-center bg-white shadow-[0_-15px_35px_15px_rgba(255,255,255,0.1)]"
             width={2000}
             height={2000}
             alt="Blog Featured Image"
