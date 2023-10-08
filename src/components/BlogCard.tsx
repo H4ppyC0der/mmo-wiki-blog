@@ -10,7 +10,7 @@ const BlogCard = () => {
         <div className="">
           <Image
             src={"/images/blog-image.PNG"}
-            className="h-[467px] w-full object-cover object-center"
+            className="h-fit w-full object-cover object-center"
             width={2000}
             height={2000}
             alt="Image"
