@@ -11,7 +11,7 @@ export interface Props {
 
 const BlogDetails = (props: Props) => {
   return (
-    <section className="w-screen h-fit flex flex-col items-center px-[5%]">
+    <section className="w-screen h-fit flex flex-col items-center px-[5%] overflow-x-hidden">
       <div className="w-full md:w-3/4 lg:w-3/4 xl:w-3/4 h-fit flex flex-col">
         <div className="w-full h-fit">
           <Image
@@ -33,7 +33,7 @@ const BlogDetails = (props: Props) => {
           effects impact game design:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 my-6">
-          <div className="col-lg-6">
+          <div className="">
             <h4 className="mb-6 text-white font-bold text-2xl">
               Music and sound effects:
             </h4>
@@ -76,12 +76,13 @@ const BlogDetails = (props: Props) => {
               </li>
             </ul>
           </div>
-          <div className="w-full h-fit">
-            <div className="flex flex-row justify-center items-center">
+          <div className="w-full h-full">
+            <div className="w-full h-full flex flex-row justify-center items-center">
               <Image
                 src="https://steamuserimages-a.akamaihd.net/ugc/2122941552017551385/AAD6B477EBC32E24C37E299D58EBA58A0E1206FE/?imw=2048&imh=1152&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
                 width={2000}
                 height={2000}
+                className="w-full h-fit"
                 alt="Blog Image"
               />
             </div>

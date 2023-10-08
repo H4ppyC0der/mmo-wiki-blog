@@ -12,7 +12,7 @@ import ShareIcon from "@mui/icons-material/Share";
 
 const Tags = () => {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row py-5 gap-3 justify-between mt-5 text-[#c5c5ca] border-y-[1px] border-[#4c4d5a]">
+    <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row py-5 gap-3 justify-between mt-5 text-[#c5c5ca] border-y-[1px] border-[#4c4d5a] ">
       <p>
         Tag: <span>Game Art, Game Sound, 3D Characters,</span>
       </p>

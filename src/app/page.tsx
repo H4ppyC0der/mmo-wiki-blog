@@ -3,7 +3,7 @@ import BlogsPage from "./blogs/page";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <BlogsPage />
     </main>
   );

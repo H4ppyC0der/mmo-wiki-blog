@@ -4,7 +4,7 @@ import React from "react";
 
 const BlogsPage = () => {
   return (
-    <section className="bg-[#161829] w-screen h-fit py-[120px] flex flex-col gap-80 md:gap-20  lg:gap-20 xl:gap-20">
+    <section className="bg-[#161829] w-screen h-fit py-[120px] flex flex-col gap-80 md:gap-20  lg:gap-20 xl:gap-20 overflow-x-hidden">
       <BlogCard
         imgSrc="https://steamuserimages-a.akamaihd.net/ugc/2109429266524096918/02032A5360DA8D57374F407922254E1932B4D01A/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
         blogTitle="The Role Of Music And Sound Effects In Game Design"

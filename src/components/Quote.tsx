@@ -3,7 +3,7 @@ import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 
 const Quote = () => {
   return (
-    <div className=" my-6 p-10 p-sm-10 text-[#222434] bg-[#DF7B00] rounded-[16px]">
+    <div className=" my-6 p-10 p-sm-10 text-[#222434] bg-[#DF7B00] rounded-[16px] ">
       <div className="text-2xl font-bold">
         <FormatQuoteIcon />
       </div>

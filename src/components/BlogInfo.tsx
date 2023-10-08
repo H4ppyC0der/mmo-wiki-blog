@@ -5,7 +5,7 @@ import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 
 const BlogInfo = () => {
   return (
-    <div className="grid grid-cols-3 md:grid-cols-8 lg:grid-cols-8 xl:grid-cols-8 divide-x pt-6 pb-4 gap-5 text-base text-[#c5c5ca]">
+    <div className="grid grid-cols-3 md:grid-cols-7 lg:grid-cols-7 xl:grid-cols-7 divide-x pt-6 pb-4 gap-5 text-base text-[#c5c5ca]">
       <div className="flex flex-row gap-1">
         <ScheduleIcon />
 
