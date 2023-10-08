@@ -103,8 +103,8 @@ const BlogDetails = (props: Props) => {
           Ultimately, music and sound effects are a crucial aspect of game
           design that can make or break the player experience. By carefully
           selecting and creating the right sounds, designers can create
-          immersive, engaging games that players will remember long after
-          they've put down the controller.
+          immersive, engaging games that players will remember long after they
+          have put down the controller.
         </p>
 
         <Tags />

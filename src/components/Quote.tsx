@@ -8,8 +8,8 @@ const Quote = () => {
         <FormatQuoteIcon />
       </div>
       <p className="text-2xl font-bold">
-        "Good game design is not about graphics, story or sound; it's about how
-        the player interacts with the game."
+        &quot;Good game design is not about graphics, story or sound; it is
+        about how the player interacts with the game.&quot;
       </p>
       <span className="mt-4 flex flex-row items-center gap-2">
         Sid Meier <div className="h-[1.5px] w-20 bg-[#222434]"></div>{" "}
